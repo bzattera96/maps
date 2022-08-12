@@ -12,16 +12,6 @@ public class App {
     public static final void main(String[] args) {
         Scanner leer = new Scanner(System.in);
 
-        /*
-        Map<Persona, String> agenda = new TreeMap<>(new DniComparator());
-        agenda.put(new Persona(78945623, "Brenda", "Zattera"), "+5401100001111");
-        agenda.put(new Persona(01234567, "Lucía", "Pérez"), "+5401122221111");
-        agenda.put(new Persona(78912345, "Matías", "González"), "+5401145451111");
-        agenda.put(new Persona(78912345, "Matías", "González"), "+5401199999999");
-
-        System.out.println(agenda);
-        */
-
         Customer customer1 = new Customer("AS611", "Motorola", "Lavalle 1700");
         Customer customer2 = new Customer("WF121", "Arcos Dorados S.A.", "Alem 700");
         Customer customer3 = new Customer("BD311", "Aerolineas Argentina S.A.", "Mitre 900");
